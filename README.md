@@ -2,6 +2,17 @@
 
 聚合源基于"Kanna"以及"Alamofire"爬取腾讯、百度、天天查询以及其他网站数据，聚合成新的源。
 
+## 要求
+- macOS 10.15
+- Xcode 11.0
+- Swift 5.0
+
+## 支持的平台
+- macOS 10.15
+- iOS 13.0
+- tvOS 13.0
+- watchOS 6.0
+
 ## 特点
 
 - [x] 支持Combine
