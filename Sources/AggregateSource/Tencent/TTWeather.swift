@@ -286,6 +286,9 @@ public final class TTWeather: ASTimeoutInterval, TTWeatherDataSource {
             /// 晚上天气风力代码
             public let night_wind_power_code: String
             
+            /// 时间
+            public let time: String
+            
         }
         
         /// 索引
