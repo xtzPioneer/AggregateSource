@@ -113,6 +113,15 @@ public final class LHLAlmanac: ASTimeoutInterval, LHLAlmanacDataSource {
         /// 描述
         public let describe: String
         
+        /// 初始化内容
+        /// - Parameters:
+        ///   - title: 标题
+        ///   - describe: 描述
+        public init(title: String, describe: String) {
+            self.title = title
+            self.describe = describe
+        }
+        
     }
     
     /// 适宜与忌讳的内容
