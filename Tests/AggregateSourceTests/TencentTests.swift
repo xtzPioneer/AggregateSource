@@ -63,6 +63,7 @@ final class TencentTests: XCTestCase {
         weather.getWeather(.init()) { result in
             switch result {
             case .success(let data):
+                print("weatherImageUrl:\(TTWeather.weatherImageUrl(data.observe.weather_code))")
                 print("data:\(data)")
             case .failure(let error):
                 print("error:\(error)")

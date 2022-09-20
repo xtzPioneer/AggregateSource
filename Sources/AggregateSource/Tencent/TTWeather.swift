@@ -557,6 +557,13 @@ public final class TTWeather: ASTimeoutInterval, TTWeatherDataSource {
         }
     }
     
+    /// 天气图片Url
+    /// - Parameter code: 天气代码
+    /// - Returns: Url
+    public static func weatherImageUrl(_ code: String) -> String {
+        "https://mat1.gtimg.com/pingjs/ext2020/weather/pc/icon/weather/day/\(code).png"
+    }
+    
     /// 初始化天气
     public init() {}
     
